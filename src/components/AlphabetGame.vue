@@ -40,7 +40,7 @@ function select(letter) {
       <template v-if="activeLetter && alphabetBank[activeLetter]">
         <span class="big-emoji">{{ alphabetBank[activeLetter].emoji }}</span>
         <span class="big-word">{{ alphabetBank[activeLetter].word }}</span>
-        <span class="big-letter">{{ activeLetter }} is for {{ alphabetBank[activeLetter].word }}</span>
+        <span class="big-letter">{{ activeLetter }} 对应 {{ alphabetBank[activeLetter].word }}</span>
         <button class="speak-btn" @click="speak(alphabetBank[activeLetter].word)">🔊 听发音</button>
       </template>
       <p v-else class="alphabet-placeholder">👆 点击字母开始学习吧！</p>

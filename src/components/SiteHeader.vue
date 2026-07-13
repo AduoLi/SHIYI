@@ -8,7 +8,7 @@ defineEmits(["navigate"])
     <div class="header-inner">
       <a href="#" class="logo" @click.prevent="$emit('navigate', 'home')">
         <span class="logo-icon">🏠</span>
-        <span class="logo-text">亲亲家园</span>
+        <span class="logo-text">拾一的夏天</span>
       </a>
       <nav class="main-nav">
         <button class="nav-btn" :class="{ active: currentPage === 'home' }" @click="$emit('navigate', 'home')">首页</button>

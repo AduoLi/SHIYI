@@ -23,6 +23,6 @@ function navigate(page) {
   </main>
   <ToastMessage />
   <footer class="site-footer">
-    <p>亲亲家园 — 陪伴是最长情的告白 💛</p>
+    <p>拾一的夏天 — 陪伴是最长情的告白 💛</p>
   </footer>
 </template>
